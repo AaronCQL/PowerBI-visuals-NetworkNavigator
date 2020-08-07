@@ -91,7 +91,12 @@
 					"bind": {
 						"to": "FILTER_FIELD"
 					}
-				}]
+				}],
+				"dataReductionAlgorithm": {
+                    "top": {
+                        "count": 30000
+                    }
+                }
 			}
 		},
 		"conditions": [{
